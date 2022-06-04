@@ -21,7 +21,7 @@ const Home = () => {
                 <Grid item xs={12}>
                         <Box sx= {{
                             display: 'flex',
-                            height: '7vh',
+                            height: '5vh',
                             backgroundColor: '#575759',
                         }} >
 
@@ -30,7 +30,8 @@ const Home = () => {
                 <Grid item xs={0.5}>
                     <Box sx= {{
                         height: '100vh',
-                        backgroundColor: '#575759'
+                        width: '4vh',
+                        backgroundColor: '#575759',
                     }}
                     >
     
@@ -40,7 +41,7 @@ const Home = () => {
                 <Grid item xs={11.5}>
                     
                     <Grid item xs={6} >
-                        <Typography variant = 'h1'  >
+                        <Typography variant = 'h1' color = '#FFFFFF' >
                             <b>Gordon Mcgaffin</b>
                         </Typography>
                     </Grid>   
@@ -50,11 +51,11 @@ const Home = () => {
                 
                     <Grid item xs={12}>
                         <br></br>
-                        <Typography variant = 'h3' align = 'left' padding='5px' >
+                        <Typography variant = 'h3' align = 'left' padding='5px' color = '#FFFFFF'>
                             <b>About Me</b>
                         </Typography>
                         <br></br>
-                        <Typography variant = 'body1' align = 'left' padding = '5px' >
+                        <Typography variant = 'body1' align = 'left' padding = '5px' color = '#FFFFFF'>
                             [To be done]
                         </Typography>
                     </Grid>

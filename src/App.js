@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 import Home from './Elements/Home';
+import Projects from './Elements/Projects';
 
 import {
 	BrowserRouter as Router,
@@ -20,7 +21,8 @@ function App() {
 			/>
 			<Router>
 				<Routes>
-					<Route element={<Home />} path='/' />
+					<Route element={<Home />} path="frontend/" />
+					<Route element={<Projects />} path="frontend/projects/" />
 				</Routes>
 			</Router>
 		</div>
