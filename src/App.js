@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 import Home from './Elements/Home';
@@ -15,6 +14,7 @@ import {
 function App() {
   return (
     <div className="App">
+		<title>Gordon Mcgaffin</title>
 			<link
 				rel="stylesheet"
 				href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
@@ -25,7 +25,7 @@ function App() {
 					<Route element={<Projects />} path="frontend/projects/" />
 				</Routes>
 			</Router>
-		</div>
+	</div>
   );
 }
 

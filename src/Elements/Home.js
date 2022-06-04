@@ -14,7 +14,7 @@ import {
 	useEffect
 } from 'react';
 
-import Image from '../Images/default_red.jpeg';
+import Image from '../Images/Happy-Cat.jpg';
 import Background from '../Images/background2.jpg';
 
 
@@ -22,11 +22,13 @@ import Background from '../Images/background2.jpg';
 const Home = () => {
     const navigate = useNavigate();
     return(
+        
         <div style = {{
             backgroundImage: 'url(' + Background + ')',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
             }}>
+            
             <AppBar position="static" style={{background: '#575759'}}>
                 <Toolbar color= "#FFFFFF">
                     <Button 
