@@ -4,6 +4,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Drawer from '@mui/material/Drawer';
+import Button from '@mui/material/Button';
+import { useNavigate } from 'react-router-dom';
 
 import Image from '../Images/default_red.jpeg';
 import Background from '../Images/background2.jpg';
@@ -11,6 +13,7 @@ import Background from '../Images/background2.jpg';
 
 
 const Home = () => {
+    const navigate = useNavigate();
     return(
         <div style = {{
             backgroundImage: 'url(' + Background + ')',
@@ -24,7 +27,7 @@ const Home = () => {
                             height: '5vh',
                             backgroundColor: '#575759',
                         }} >
-
+                            <Button color= "success" varient = "contained" onClick={() => navigate('/frontend/projects')}>Projects</Button>
                         </Box>
                     </Grid> 
                 <Grid item xs={0.5}>
