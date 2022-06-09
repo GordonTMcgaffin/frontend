@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from './Elements/Home';
 import Projects from './Elements/Projects';
+import SpringTest from './Elements/SpringTest';
 
 import {
 	BrowserRouter as Router,
@@ -21,8 +22,10 @@ function App() {
 			/>
 			<Router>
 				<Routes>
+					<Route path="/" element={<Home />} />
 					<Route element={<Home />} path="frontend/" />
 					<Route element={<Projects />} path="frontend/projects/" />
+					<Route element={<SpringTest />} path="frontend/springtest/" />
 				</Routes>
 			</Router>
 	</div>

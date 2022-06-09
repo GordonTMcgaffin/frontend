@@ -47,7 +47,7 @@ const Home = () => {
                 <Grid item xs={11.5}>
                     
                     <Grid item xs={6} >
-                        <Typography variant = 'h1' color = '#FFFFFF' >
+                        <Typography variant = 'h2' color = '#FFFFFF' >
                             <b>Gordon Mcgaffin</b>
                         </Typography>
                     </Grid>   

@@ -1,37 +1,59 @@
-import ProjectBackground from '../Images/projects-background_fade_grey.jpg';
-import Traversal from '../Images/Traversal.png';
-import Warrior_Game from '../Images/Warrior_Game.png';
-import SD_GS from '../Images/SD_GS.png';
-import SD_NR from '../Images/SD_NR.png';
-import SD_ED from '../Images/SD_ED.png';
-import SD_SD from '../Images/SD_SD.png';
+import React from 'react';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+import { useSpring, animated } from 'react-spring';
+import { useNavigate } from 'react-router-dom';
 
-import WebDesign from '../Images/Happy-Cat.jpg';
-import Othello from '../Images/Happy-Cat.jpg';
+import ProjectBackground from '../Images/projects-background_fade_grey.jpg';
 
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import { useNavigate } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Stack from '@mui/material/Stack';
+import { styled } from '@mui/material/styles';
+import Divider from '@mui/material/Divider';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
-const Projects = () => {
+import WebDesign from '../Images/Happy-Cat.jpg';
+import Othello from '../Images/Happy-Cat.jpg';
+
+import Traversal from '../Images/Traversal.png'
+import Warrior_Game from '../Images/Warrior_Game.png'
+import SD_GS from '../Images/SD_GS.png'
+import SD_NR from '../Images/SD_NR.png'
+import SD_ED from '../Images/SD_ED.png'
+import SD_SD from '../Images/SD_SD.png'
+
+const Item = styled(Paper)(({ theme }) => ({
+    backgroundColor: '#1A2027',
+    padding: theme.spacing(1),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  }));
+
+const SpringTest = () => {
 
     const navigate = useNavigate();
-    return (
-            <div style = {{
-                backgroundImage: 'url(' + ProjectBackground + ')',
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                position: 'relative',
-                }}>
 
-<AppBar position="static" style={{background: '#575759'}}>
+    return (
+        <div style = {{
+            backgroundImage: 'url(' + ProjectBackground + ')',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            position: 'relative',
+            }}>
+
+            <AppBar position="static" style={{background: '#575759'}}>
                 <Toolbar color= "#FFFFFF">
                     <Button 
                         sx ={{color: '#FFFFFF',}}
@@ -159,4 +181,4 @@ const itemData = [
     },
 ];
 
-export default Projects;
+export default SpringTest;
