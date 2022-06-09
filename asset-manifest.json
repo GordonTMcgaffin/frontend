@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/frontend/static/css/main.073c9b0a.css",
-    "main.js": "/frontend/static/js/main.d12db2e8.js",
+    "main.js": "/frontend/static/js/main.f56081e1.js",
     "static/js/787.cda612ba.chunk.js": "/frontend/static/js/787.cda612ba.chunk.js",
     "static/media/SD_GS.png": "/frontend/static/media/SD_GS.76e6e1b8eb86676b1828.png",
     "static/media/SD_NR.png": "/frontend/static/media/SD_NR.5ed430122d54d43c6323.png",
-    "static/media/projects-background_fade.jpg": "/frontend/static/media/projects-background_fade.b122f7fec9c3c803ce44.jpg",
     "static/media/background2.jpg": "/frontend/static/media/background2.c8bcf76a2c80ab7422f3.jpg",
     "static/media/Happy-Cat.jpg": "/frontend/static/media/Happy-Cat.754f3256d8d699b83ad2.jpg",
+    "static/media/projects-background_fade_grey.jpg": "/frontend/static/media/projects-background_fade_grey.62a43e4d20015b85db5c.jpg",
     "static/media/SD_ED.png": "/frontend/static/media/SD_ED.2e7fba8cf3c8b2e1be52.png",
     "static/media/Traversal.png": "/frontend/static/media/Traversal.29c2875345ec35dcd864.png",
     "static/media/Warrior_Game.png": "/frontend/static/media/Warrior_Game.70066657df3f9485adbe.png",
     "static/media/SD_SD.png": "/frontend/static/media/SD_SD.cf7bc91a3b4d42f140a9.png",
     "index.html": "/frontend/index.html",
     "main.073c9b0a.css.map": "/frontend/static/css/main.073c9b0a.css.map",
-    "main.d12db2e8.js.map": "/frontend/static/js/main.d12db2e8.js.map",
+    "main.f56081e1.js.map": "/frontend/static/js/main.f56081e1.js.map",
     "787.cda612ba.chunk.js.map": "/frontend/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d12db2e8.js"
+    "static/js/main.f56081e1.js"
   ]
 }
