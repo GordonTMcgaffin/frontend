@@ -37,7 +37,19 @@ const Projects = () => {
                         sx ={{color: '#FFFFFF',}}
                         varient = "contained"
                         onClick={() => navigate('/frontend/')}>
-                            Back
+                            Home
+                    </Button>
+                    <Button 
+                        sx ={{color: '#FFFFFF',}}
+                        varient = "contained"
+                        onClick={() => navigate('/frontend/about')}>
+                            About Me
+                    </Button>
+                    <Button 
+                        sx ={{color: '#FFFFFF',}}
+                        varient = "contained"
+                        onClick={() => navigate('/frontend/contact')}>
+                            Contact Me 
                     </Button>
                 </Toolbar>
             </AppBar>
