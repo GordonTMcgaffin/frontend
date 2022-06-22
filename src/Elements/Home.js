@@ -63,15 +63,15 @@ const Home = () => {
 
                         <Grid item xs={6.5 } alignItems = "center">
                                     <Typography variant = 'h2' color = '#FFFFFF' >
-                                        <b>Hi, I am Gordon Mcgaffin, 
-                                            a computer science student</b>
+                                        <b>Hi, I am Gordon Mcgaffin, <br></br>
+                                            a computer science student.</b>
                                     </Typography>
                                     <Typography variant = 'h4' color = '#FFFFFF' >
                                         <b>(...and i am looking for a job)</b>
                                     </Typography> 
                         </Grid>
                         <Grid item xs = {5} alignItems = "center" >
-                            <img align = "center" src = {Image} width='30%' />
+                            
                         </Grid>
                     </Grid>
                 </Box>

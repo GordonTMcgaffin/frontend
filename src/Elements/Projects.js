@@ -1,13 +1,13 @@
 import ProjectBackground from '../Images/projects-background_fade_grey.jpg';
 import Traversal from '../Images/Traversal.png';
 import Warrior_Game from '../Images/Warrior_Game.png';
-import SD_GS from '../Images/SD_GS.png';
+
 import SD_NR from '../Images/SD_NR.png';
 import SD_ED from '../Images/SD_ED.png';
 import SD_SD from '../Images/SD_SD.png';
-
-import WebDesign from '../Images/Happy-Cat.jpg';
-import Othello from '../Images/Happy-Cat.jpg';
+import Maties_Mingle from '../Images/Maties_Mingle.png';
+import Job_Bytes from '../Images/Job_Bytes.png';
+import Othello from '../Images/Othello.png';
 
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
@@ -126,7 +126,12 @@ const Projects = () => {
                     </Grid>
 
                     <Grid item xs = {4}>
-                        <img align= 'center' src = {WebDesign} width='65%' />
+                    <Box sx = {{p:"10px"}}>
+                        <img align = "center" src = {Maties_Mingle} width = "70%" />
+                    </Box>
+                    <Box sx = {{p:"10px"}}>
+                        <img align = "center" src = {Job_Bytes} width="70%" />
+                    </Box>
                     </Grid>
 
                     <Grid item xs = {8}>
