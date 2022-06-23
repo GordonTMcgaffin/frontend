@@ -73,7 +73,7 @@ const Projects = () => {
                             <b>Traversal</b>
                         </Typography>
                         <Typography variant = 'p' color = '#FFFFFF' >
-                            [ToDo] (Copilot generated) Traversal is a game that I made for my CS class. It is a simple game where you can move around a grid and collect coins. The goal is to get to the end of the grid and collect the most coins. The game is designed to be played on a single screen and is designed to be played on a mobile device. The game is currently in development and is not yet playable.
+                            Traversal was the first project that I did in university in my first year. The game was created using Java as the coding language and was used as an introduction to coding. The main point of the game is to move a player piece through a grid of tiles while avoiding obstacles and collecting the necessary items to complete the board. For this project we were not allowed to use objects, which created challenges for the game such as when board pieces stack on top of each other. This project taught me the basics of programming.
                         </Typography>
                     </Grid>
                     <Grid item xs={4}>
@@ -93,7 +93,11 @@ const Projects = () => {
                             <b>Warrior Game</b>
                         </Typography>
                         <Typography variant = 'p' color = '#FFFFFF' >
-                            [ToDo] (Copilot generated) Warrior Game is a game that I created for the purpose of learning how to use the canvas element. The game is a simple game where the player can move around a grid and shoot enemies. The game is made with HTML, CSS, and Javascript. The game is currently in development.
+                            Warrior Game was my second semester project in first year. 
+                            This project was coded in Java and was used as an introduction to object orientated programming. 
+                            The game contains a grid, warriors of different elements are placed on the board and battle each other. 
+                            Each elemental warrior has their own special attacks. Along with the player pieces there were water pieces that would flow across the board as the game played out.
+                            This project taught me object orientated programming.
                         </Typography>
                     </Grid>   
 
@@ -106,11 +110,9 @@ const Projects = () => {
                             <b>Spot Detection</b>
                         </Typography>
                         <Typography variant = 'p' color = '#FFFFFF' >
-                            [ToDo] (Copilot generated) An application that detects the presence of a specific object in a video stream. The application is designed to be used with a webcam. The application is currently in development.
+                        The spot detection project was my project for my first semester of my second year. This project was coded in Java and was used to teach us about cellular automata. The project would take in a picture of a cheetah (or any image), this image would then be converted to grey scale and noise reduction would be applied to the image. Edges would be detected on the image, which was then followed by the spot detection using masks to check if an area of the image contained a spot. The program would return an image with all the spots along with the amount of spots.  
                         </Typography>
                     </Grid>
-
-
                     <Grid item xs={4}>
                         <ImageList  >
                             {itemData.map((item) => (
@@ -139,7 +141,21 @@ const Projects = () => {
                             <b>Web Design</b>
                         </Typography>
                         <Typography variant = 'p' color = '#FFFFFF' >
-                            [ToDo] (Copilot generated) Web Design is a project that I created for the purpose of learning how to use the canvas element. The project is a simple project that I made for the purpose of learning how to use the canvas element. The project is made with HTML, CSS, and Javascript. The project is currently in development.
+                            For the first semester of my second year we learnt web design. The web design module required two group projects. 
+                            For the first project we were required to choose a web stack from a limited selection of frameworks and languages. 
+                            My team decided to use flask with React and mysql as our web stack. 
+                            The first website was a job application website where companies could create contracts and develepors could accept them. 
+                            For this first project I worked on the frontend (react).
+                            <br></br>
+                            <br></br>
+                            For the second project we were allowed to select a web stack from a wider range of languages and frameworks. 
+                            My team decided to use React with django and mongodb as our web stack for this project.
+                            The aim of the second project was to make a social media platform where users could create friends and groups. 
+                            The user could make posts that either contained a video or a text.
+                            For this second project I worked on the backend (django and mongodb), while helping with some frontend tasks.
+                            <br></br>
+                            <br></br>
+                            This project taught me everything I know about web design and has allowed me to create this website with react.
                         </Typography>
                     </Grid>
 
@@ -148,7 +164,10 @@ const Projects = () => {
                             <b>Othello</b>
                         </Typography>
                         <Typography variant = 'p' color = '#FFFFFF' >
-                            [ToDo] (Copilot generated) Othello is a game that I made for my CS class. It is a simple game where you can move around a grid and collect coins. The goal is to get to the end of the grid and collect the most coins. The game is designed to be played on a single screen and is designed to be played on a mobile device. The game is currently in development and is not yet playable.
+                            Othello was a project that I complete in my first semester of my second year. 
+                            For the project we had to create a player that could use a minimax algorithm with alpha beta pruning that could recursively play the game until it found what it thought would be the best move, then it would play this move.
+                            This project was used to teach us about Concurrency as each possible move that could be played was divided between multiple processors so that each processor could calculate the best move from their set of possible moves. 
+                            This project was coded in C and taught me about concurrency and using search trees more effectively.
                         </Typography>
                     </Grid>
                     <Grid item xs = {4}>

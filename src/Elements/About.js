@@ -20,7 +20,7 @@ const About = () =>{
             backgroundColor:'#0d181e',
             backgroundRepeat: 'repeat',
             backgroundSize: 'cover',
-            height:'150vh' 
+            
         }}>
             <body>
             <AppBar position="static" style={{background: '#575759'}} >
@@ -53,8 +53,9 @@ const About = () =>{
                     </Typography>
                 </Grid>
                 <Grid xs = {8}>
-                    <Typography variant = 'h5' align="left" color = '#FFFFFF' sx={{p:1}} >
-                        I was born in Tzaneen, Limpopo and grew up in the small town of Louis Trichardt
+                    <Typography variant = 'body1' align="left" color = '#FFFFFF' sx={{p:1}} >
+                        I was born in Tzaneen, Limpopo and grew up in the small town of Louis Trichardt. I grew up on a farm and spent most of my time outside exploring, swimming, climbing trees, etc. One day my mother brought home a ps2 which begam my life long love for video games. Since i started playing games Ive had an itch at the back of my head that wanted to know how to make them. I tried to learn how games worked but never fully understood, until we started coding in grade 11 in my computer science class.
+                        I fell in love with coding from the moment my first Hello world printed out in the console from a program I wrote. So, because my parents bought my sister and myself a ps 2 when i was around 9 or 10 years old, I am now completeig a computer science degree. My love for programming has extended beyond game design, I now have a keen intrest in web design, security, problem solving, server systems, ....  
                         My hobbies include:<br></br>
                         - Swimming <br></br>
                         - Chess - Chess captain in final year of high school <br></br>
@@ -69,27 +70,37 @@ const About = () =>{
                 <Typography variant = 'h3' align="left" color = '#FFFFFF' sx={{p:1}} >
                         Education
                     </Typography>
-                    <Box sx = {{p:"20px"}}>
-                        <img align = "center" src = {Ridgeway} />
-                    </Box>
-                    <Box sx = {{p:"20px"}}>
-                        <img align = "center" src = {Stellenbosch} width="50%" />
-                    </Box>
+                    
+                    
                 </Grid>
                 <Grid item xs={8}>
-                    <Typography variant = 'h6' align = "left" color = '#FFFFFF' sx={{p:1}}>
+                    <Typography variant = 'body1' align = "left" color = '#FFFFFF' sx={{p:1}}>
                         Primary school: Ridgeway Independent (Grade R - 7) <br></br>
                     </Typography>
-                    <Typography variant = 'h6' align = "left" color = '#FFFFFF'  sx={{p:1}}>
-                        High school: Ridgeway College (Grade 8 - 12), <br></br> here I become prefect in my matric year and completed my AS-level certificate with the following subjects:<br></br>
+                    <Box sx = {{p:"20px"}}>
+                        <img align = "left" src = {Ridgeway} width="10%" />
+                    </Box>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <Typography variant = 'body1' align = "left" color = '#FFFFFF'  sx={{p:1}}>
+                        High school: Ridgeway College (Grade 8 - 12). <br></br> Here I become prefect in my matric year and completed my AS-level certificate with the following subjects:<br></br>
                         - Computer Science <br></br>
                         - English <br></br>
                         - Afrikaans <br></br>
                         - Physics <br></br>
                         - Mathematics<br></br>
                     </Typography>
-                    <Typography variant = 'h6' align = "left" color = '#FFFFFF'  sx={{p:1}}>
-                        University: Stellenbosch University (2020 - Now), <br></br> here I am currently completing a Computer Science degree where we have worked on multiple projects (Which can be found in the projects section). I have learnt the following coding languages:<br></br>
+                    <Box sx = {{p:"20px"}}>
+                        <img align = "left" src = {Stellenbosch} width="10%" />
+                    </Box>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <Typography variant = 'body1' align = "left" color = '#FFFFFF'  sx={{p:1}}>
+                        University: Stellenbosch University (2020 - Now). <br></br> Here I am currently completing a Computer Science degree where we have worked on multiple projects (Which can be found in the projects section). I have learnt the following coding languages:<br></br>
                         - Java <br></br>
                         - Javascript <br></br>
                         - Python <br></br>
@@ -97,7 +108,22 @@ const About = () =>{
 
                     </Typography>
                 </Grid>
+                <Grid item xs = {4}>
+                    <Typography variant = 'h3' align = "left" color = '#FFFFFF' sx={{p:1}}>
+                        Hobbies
+                    </Typography>
 
+                </Grid>
+                <Grid item xs = {8}>
+                <Typography variant = 'body1' align="left" color = '#FFFFFF' sx={{p:1}} >My hobbies include:<br></br>
+                        - Swimming <br></br>
+                        - Chess - Chess captain in final year of high school <br></br>
+                        - Dungeons and Dragons <br></br>
+                        - Video Games <br></br>
+                        - Running <br></br>
+                        - Wood working <br></br>
+                    </Typography>
+                </Grid>
                
                 
                 
