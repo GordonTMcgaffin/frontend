@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frontend/static/css/main.073c9b0a.css",
-    "main.js": "/frontend/static/js/main.a61d1459.js",
+    "main.js": "/frontend/static/js/main.adf2eb09.js",
     "static/js/787.cda612ba.chunk.js": "/frontend/static/js/787.cda612ba.chunk.js",
     "static/media/SD_GS.png": "/frontend/static/media/SD_GS.76e6e1b8eb86676b1828.png",
     "static/media/SD_NR.png": "/frontend/static/media/SD_NR.5ed430122d54d43c6323.png",
@@ -19,11 +19,11 @@
     "static/media/Ridgeway.jpg": "/frontend/static/media/Ridgeway.94c018bcf2c1e67cc810.jpg",
     "index.html": "/frontend/index.html",
     "main.073c9b0a.css.map": "/frontend/static/css/main.073c9b0a.css.map",
-    "main.a61d1459.js.map": "/frontend/static/js/main.a61d1459.js.map",
+    "main.adf2eb09.js.map": "/frontend/static/js/main.adf2eb09.js.map",
     "787.cda612ba.chunk.js.map": "/frontend/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.a61d1459.js"
+    "static/js/main.adf2eb09.js"
   ]
 }
